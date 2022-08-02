@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 public class TCPServerThread extends Thread{
-    private Socket socket;
+    private final Socket socket;
 
     public TCPServerThread(Socket socket) {
         this.socket = socket;

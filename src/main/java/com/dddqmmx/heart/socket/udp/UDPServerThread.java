@@ -27,7 +27,7 @@ public class UDPServerThread extends Thread {
     //具体地处理逻辑
     @Override
     public void run() {
-        super.run();
+
     }
 
     //发送消息
